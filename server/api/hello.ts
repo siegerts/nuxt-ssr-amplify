@@ -1,4 +1,5 @@
-export default defineEventHandler((event: any) => {
+export default defineEventHandler((event) => {
+  console.log("server route requested");
   return {
     hello: "world",
   };
